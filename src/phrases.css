@@ -1,0 +1,58 @@
+.title{
+  padding-bottom: 15px;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.quote-article{
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+}
+.quote{
+  height: 200px;
+  width: 500px;
+  display: grid;
+  background-image: url('Group-2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  place-items: center;
+  margin: 0 auto;
+}
+.quote p{
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.footer{
+  color: #ffffff;
+}
+
+@media(max-width:515px)
+{
+  .quote{
+    width: 400px;
+   
+  }
+ 
+} 
+@media(max-width:400px)
+{
+  .quote{
+    width: 345px;
+    height: 150;
+  }
+ 
+} 
+
+
+.backgroundNoneSpace{
+  height: 180px;
+  width: 350px;
+  background-image:none;
+  color: #000000;
+  background-color: rgba(255,255,255,.4);
+  border-radius: 15px;
+}

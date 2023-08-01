@@ -1,0 +1,48 @@
+.card{
+  display: grid;
+  grid-template-rows:  1fr auto;
+  min-height: 100vh;
+  min-width: 100vw;
+  place-items: center;
+  width: min(100%,200px);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg1{
+  background-image: url('fortuna1-1.png');
+  
+}
+.bg2{
+  background-image: url('fortuna1-4.png');
+}
+.bg3{
+  background-image: url('fortuna1-2.png');
+}
+.bg4{
+  background-image: url('fortuna1-3.png');
+}
+.bg5{
+  background-image:url('fortuna2-1.jpg');
+}
+.bg6{
+  background-image: url('fortuna2-2.jpg');
+}
+.bg7{
+  background-image: url('fortuna2-3.jpg');
+}
+.bg8{
+  background-image: url('fortuna2-4.jpg');
+}
+.bg9{
+  background-image: url('espacio1.jpg');
+}
+.bg10{
+  background-image: url('espacio2.jpg');
+}
+.bg11{
+  background-image: url('espacio3.jpg');
+}
+.bg12{
+  background-image: url('galaxia.jpg');
+}

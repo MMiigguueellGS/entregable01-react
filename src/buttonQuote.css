@@ -1,0 +1,53 @@
+.button{
+
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+  border: 1px solid #ffffff;
+  color: hwb(0 100% 0%);
+  cursor: pointer;
+  background-color: rgba(29, 41, 81, .3);
+  margin-top: 20px;
+
+}
+
+.button.classBtnCookies{
+  background-color: #ea4040;
+  width: 80px;
+
+}
+.button.classBtnSpace{
+  background-color: rgb(189, 189, 39,.9);
+  position: absolute;
+  bottom: 25%; 
+  left: 48%;
+  width: 25px; 
+  height: 25px; 
+  border-radius: 50%;
+  cursor: pointer;
+}
+.button.classBtnSpace:hover{
+  background-color: rgba(251, 254, 255, 0.9);
+}
+
+
+.button.classBtnSpace::after {
+  content: '';
+  position: absolute;
+  background-color: transparent;
+  bottom: -8px; 
+  left: -8px; width: 40px; 
+  height: 40px; 
+  border-radius: 50%;
+  border: 2px dashed rgba(226, 226, 47, 0.9);
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
