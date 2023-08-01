@@ -9,40 +9,28 @@
   background-size: cover;
 }
 
-.bg1{
-  background-image: url('/fortuna1-1.png');
-  
-}
-.bg2{
-  background-image: url('/fortuna1-4.png');
-}
-.bg3{
-  background-image: url('/fortuna1-2.png');
-}
-.bg4{
-  background-image: url('/fortuna1-3.png');
-}
+
 .bg5{
-  background-image:url('/fortuna2-1.jpg');
+  background-image:url('/fortuna2-1.webp');
 }
 .bg6{
-  background-image: url('/fortuna2-2.jpg');
+  background-image: url('/fortuna2-2.webp');
 }
 .bg7{
-  background-image: url('/fortuna2-3.jpg');
+  background-image: url('/fortuna2-3.webp');
 }
 .bg8{
-  background-image: url('/fortuna2-4.jpg');
+  background-image: url('/fortuna2-4.webp');
 }
 .bg9{
-  background-image: url('/espacio1.jpg');
+  background-image: url('/espacio1.webp');
 }
 .bg10{
-  background-image: url('/espacio2.jpg');
+  background-image: url('/espacio2.webp');
 }
 .bg11{
-  background-image: url('/espacio3.jpg');
+  background-image: url('/espacio3.webp');
 }
 .bg12{
-  background-image: url('/galaxia.jpg');
+  background-image: url('/galaxia.webp');
 }
