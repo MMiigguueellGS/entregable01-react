@@ -1,7 +1,7 @@
 .button{
 
-  padding: 10px;
-  border-radius: 10px;
+  padding: 8px;
+  border-radius: 15px;
   width: 120px;
   border: 1px solid #ffffff;
   color: hwb(0 100% 0%);
@@ -12,15 +12,26 @@
 }
 
 .button.classBtnCookies{
-  background-color: #ea4040;
+  position: relative;
+  bottom: 64vh;
+    right: 70vh;
+  background-color: rgba(179, 87, 79, 0.8);
+  color: #ffffff;
   width: 80px;
+  transition: right 0.2s ease-in-out; 
+}
+.button.classBtnCookies:hover{
+
+  background-color: rgba(202, 222, 22, 0.8);
+  color: #000000;
+ 
 
 }
 .button.classBtnSpace{
   background-color: rgb(189, 189, 39,.9);
   position: absolute;
   bottom: 25%; 
-  left: 48%;
+  left: 50%;
   width: 25px; 
   height: 25px; 
   border-radius: 50%;
@@ -40,7 +51,7 @@
   height: 40px; 
   border-radius: 50%;
   border: 2px dashed rgba(226, 226, 47, 0.9);
-  animation: rotate 2s linear infinite;
+  animation: rotate .2s linear infinite;
 }
 
 @keyframes rotate{
@@ -49,5 +60,23 @@
   }
   to{
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1016px) {
+  .button.classBtnCookies {
+    right: 50vh;
+  }
+}
+
+@media (max-width: 761px) {
+  .button.classBtnCookies {
+    right: 30vh;
+  }
+}
+
+@media (max-width: 490px) {
+  .button.classBtnCookies {
+    right: 0;
   }
 }
