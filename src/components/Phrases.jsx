@@ -38,11 +38,11 @@ const Phrases = ({ quotes1, quotes2, quotes3 }) => {
         <article className={`quote  ${space}`}>
           <p>{quote.phrase}</p>
         </article>
-        <ButtonQuote onClick={() => handleButtonClick(quotes2, imgBackground1,'FORTUNE COOKIES','','')}>{title==='FORTUNE COOKIES'?'see another':'cookies'}</ButtonQuote> 
+        <ButtonQuote onClick={() => handleButtonClick(quotes2, imgBackground1,'FORTUNE COOKIES','','')} classBtn={title==='FORTUNE COOKIES'?'':'classGoCookies'}>{title==='FORTUNE COOKIES'?'see another':'cookies'}</ButtonQuote> 
         <ButtonQuote onClick={() => handleButtonClick(quotes3, imgBackground2,'INFOGALAX','backgroundNoneSpace',planet)} classBtn={title==='FORTUNE COOKIES'?'classBtnCookies':'classBtnSpace'}>{title==='FORTUNE COOKIES'?'go space':''}</ButtonQuote>
      
       </section>
-      <footer className={`footer ${planet}`}>
+      <footer className={`footer ${planet} `}>
         <h4>
           <p>Fuente: {quote.author}</p>
         </h4>
